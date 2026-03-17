@@ -1,200 +1,194 @@
 <!DOCTYPE html>
 <html lang="el">
 <head>
-  <meta name="google-site-verification" content="ΤΟ-CODE-ΣΟΥ" />
+  <meta name="google-site-verification" content="Nt6f7D3Bx2munwK47SVd1csWT5qcR9rfMqQis6P6NFY" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="ΒΑΛΕ_ΕΔΩ_ΤΟ_CODE_ΤΟΥ_GOOGLE" />
+  <title>Ρόδον | Κτήμα Γάμου & Δεξιώσεων Μεσσήνη</title>
+  <meta name="description" content="Κτήμα Ρόδον στη Μεσσήνη για γάμους, βαφτίσεις και εκδηλώσεις.">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: Arial, sans-serif; color:#333; line-height:1.6; }
 
-<title>Ρόδον | Κτήμα Γάμου & Δεξιώσεων Μεσσήνη</title>
-<meta name="description" content="Κτήμα Ρόδον στη Μεσσήνη. Οργανώστε τον γάμο ή τη βάφτιση των ονείρων σας σε έναν μοναδικό χώρο.">
+    .hero{
+      height:100vh;
+      background:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80') center/cover;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      color:white;
+      padding:20px;
+    }
 
-<style>
-*{margin:0;padding:0;box-sizing:border-box;}
-body{font-family:Arial,sans-serif;color:#333;line-height:1.6;}
+    .hero h1 { font-size:3em; max-width:800px; }
+    .hero p { margin:20px 0; font-size:1.2em; }
 
-.hero{
-height:100vh;
-background:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),
-url('https://images.unsplash.com/photo-1519741497674-611481863552') center/cover;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-color:white;
-padding:20px;
-}
+    .btn{
+      background:#c59d5f;
+      color:white;
+      padding:15px 30px;
+      border-radius:6px;
+      text-decoration:none;
+      font-weight:bold;
+      display:inline-block;
+      margin:10px;
+    }
 
-.hero h1{font-size:3em;max-width:800px;}
-.hero p{margin:20px 0;font-size:1.2em;}
+    .section{
+      padding:70px 20px;
+      max-width:1100px;
+      margin:auto;
+      text-align:center;
+    }
 
-.btn{
-background:#c59d5f;
-color:white;
-padding:15px 30px;
-border-radius:6px;
-text-decoration:none;
-font-weight:bold;
-display:inline-block;
-margin:10px;
-}
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:15px;
+    }
 
-.section{padding:70px 20px;max-width:1100px;margin:auto;text-align:center;}
+    .gallery img{
+      width:100%;
+      height:260px;
+      object-fit:cover;
+      border-radius:10px;
+    }
 
-.gallery{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:15px;
-}
+    .features{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+      text-align:left;
+      margin-top:30px;
+    }
 
-.gallery img{
-width:100%;
-height:260px;
-object-fit:cover;
-border-radius:10px;
-}
+    .card{
+      background:#f4f4f4;
+      padding:25px;
+      border-radius:10px;
+    }
 
-.features{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-text-align:left;
-margin-top:30px;
-}
+    .cta{
+      background:#111;
+      color:white;
+      text-align:center;
+      padding:80px 20px;
+    }
 
-.card{
-background:#f4f4f4;
-padding:25px;
-border-radius:10px;
-}
+    .testimonials{
+      background:#fafafa;
+    }
 
-.cta{
-background:#111;
-color:white;
-text-align:center;
-padding:80px 20px;
-}
+    .form input, .form textarea{
+      width:100%;
+      padding:12px;
+      margin:10px 0;
+      border:1px solid #ccc;
+      border-radius:5px;
+    }
 
-.testimonials{
-background:#fafafa;
-}
+    footer{
+      background:#000;
+      color:#aaa;
+      text-align:center;
+      padding:20px;
+    }
 
-.form input, .form textarea{
-width:100%;
-padding:12px;
-margin:10px 0;
-border:1px solid #ccc;
-border-radius:5px;
-}
-
-footer{
-background:#000;
-color:#aaa;
-text-align:center;
-padding:20px;
-}
-
-.whatsapp{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
-color:white;
-padding:15px;
-border-radius:50%;
-text-decoration:none;
-font-size:20px;
-}
-</style>
+    .whatsapp{
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:#25D366;
+      color:white;
+      padding:15px;
+      border-radius:50%;
+      text-decoration:none;
+      font-size:20px;
+    }
+  </style>
 </head>
-
 <body>
 
-<!-- HERO -->
 <section class="hero">
-<h1>Ο γάμος που θα θυμάστε για πάντα ξεκινά στο Ρόδον</h1>
-<p>Κτήμα δεξιώσεων στη Μεσσήνη για γάμους, βαφτίσεις & εκδηλώσεις</p>
-<a href="#contact" class="btn">Κλείσε Ραντεβού</a>
-<a href="#gallery" class="btn">Δες Φωτογραφίες</a>
+  <h1>Ο γάμος που θα θυμάστε για πάντα ξεκινά στο Ρόδον</h1>
+  <p>Κτήμα δεξιώσεων στη Μεσσήνη για γάμους, βαφτίσεις και εκδηλώσεις</p>
+  <a href="#contact" class="btn">Κλείσε Ραντεβού</a>
+  <a href="#gallery" class="btn">Δες Φωτογραφίες</a>
 </section>
 
-<!-- TRUST -->
 <section class="section">
-<h2>Γιατί το Ρόδον</h2>
-<div class="features">
-<div class="card">✔ Ρομαντικό περιβάλλον μέσα στη φύση</div>
-<div class="card">✔ Ολοκληρωμένη οργάνωση εκδήλωσης</div>
-<div class="card">✔ Προσεγμένο μενού & εξυπηρέτηση</div>
-<div class="card">✔ Εμπειρία σε εκατοντάδες εκδηλώσεις</div>
-</div>
+  <h2>Γιατί το Ρόδον</h2>
+  <div class="features">
+    <div class="card">Ρομαντικό περιβάλλον μέσα στη φύση</div>
+    <div class="card">Ολοκληρωμένη οργάνωση εκδήλωσης</div>
+    <div class="card">Προσεγμένο μενού και εξυπηρέτηση</div>
+    <div class="card">Ιδανικός χώρος για γάμους και βαφτίσεις</div>
+  </div>
 </section>
 
-<!-- GALLERY -->
 <section class="section" id="gallery">
-<h2>Εικόνες που μιλάνε μόνες τους</h2>
-<div class="gallery">
-<img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622">
-<img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf">
-<img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed">
-<img src="https://images.unsplash.com/photo-1505236858219-8359eb29e329">
-<img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3">
-<img src="https://images.unsplash.com/photo-1478146896981-b80fe463b330">
-</div>
+  <h2>Εικόνες από εκδηλώσεις</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1000&q=80" alt="Δεξίωση γάμου">
+    <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1000&q=80" alt="Στολισμός γάμου">
+    <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1000&q=80" alt="Χώρος εκδήλωσης">
+    <img src="https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1000&q=80" alt="Κτήμα δεξιώσεων">
+  </div>
 </section>
 
-<!-- SERVICES -->
 <section class="section">
-<h2>Υπηρεσίες</h2>
-<div class="features">
-<div class="card">💍 Γάμοι με πλήρη οργάνωση</div>
-<div class="card">👶 Βαφτίσεις</div>
-<div class="card">🏢 Εταιρικές εκδηλώσεις</div>
-<div class="card">🍽 Catering υψηλής ποιότητας</div>
-</div>
+  <h2>Υπηρεσίες</h2>
+  <div class="features">
+    <div class="card">Γάμοι με πλήρη οργάνωση</div>
+    <div class="card">Βαφτίσεις</div>
+    <div class="card">Εταιρικές εκδηλώσεις</div>
+    <div class="card">Catering υψηλής ποιότητας</div>
+  </div>
 </section>
 
-<!-- TESTIMONIALS -->
 <section class="section testimonials">
-<h2>Τι λένε οι πελάτες</h2>
-<p>"Εξαιρετικός χώρος, άψογη εξυπηρέτηση και απίστευτη ατμόσφαιρα!"</p>
-<p>"Ο γάμος μας ήταν ακριβώς όπως τον ονειρευόμασταν."</p>
+  <h2>Τι λένε οι πελάτες</h2>
+  <p>"Εξαιρετικός χώρος, άψογη εξυπηρέτηση και πολύ όμορφη ατμόσφαιρα."</p>
+  <p>"Ο γάμος μας έγινε ακριβώς όπως τον θέλαμε."</p>
 </section>
 
-<!-- CTA -->
 <section class="cta">
-<h2>Οι ημερομηνίες κλείνονται γρήγορα</h2>
-<p>Επικοινώνησε τώρα για διαθεσιμότητα</p>
-<a href="#contact" class="btn">Ζήτα προσφορά</a>
+  <h2>Οι ημερομηνίες κλείνονται γρήγορα</h2>
+  <p>Επικοινώνησε τώρα για διαθεσιμότητα</p>
+  <a href="#contact" class="btn">Ζήτα προσφορά</a>
 </section>
 
-<!-- CONTACT -->
 <section class="section" id="contact">
-<h2>Επικοινωνία</h2>
+  <h2>Επικοινωνία</h2>
 
-<form class="form">
-<input type="text" placeholder="Όνομα">
-<input type="email" placeholder="Email">
-<input type="tel" placeholder="Τηλέφωνο">
-<textarea placeholder="Πες μας για την εκδήλωσή σου"></textarea>
-<button class="btn">Αποστολή</button>
-</form>
+  <form class="form">
+    <input type="text" placeholder="Όνομα">
+    <input type="email" placeholder="Email">
+    <input type="tel" placeholder="Τηλέφωνο">
+    <textarea placeholder="Πες μας για την εκδήλωσή σου"></textarea>
+    <button type="submit" class="btn">Αποστολή</button>
+  </form>
 
-<p>📍 Μεσσήνη, Μεσσηνία</p>
-<p>📞 6973779985</p>
+  <p>Μεσσήνη, Μεσσηνία</p>
+  <p>Τηλ: 6973779985</p>
 
-<iframe 
-src="https://maps.google.com/maps?q=Messini&t=&z=13&ie=UTF8&iwloc=&output=embed"
-width="100%" height="300" style="border:0;margin-top:20px;">
-</iframe>
-
+  <iframe
+    src="https://maps.google.com/maps?q=Messini&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    width="100%" height="300" style="border:0;margin-top:20px;"
+    loading="lazy">
+  </iframe>
 </section>
 
-<!-- WHATSAPP -->
 <a class="whatsapp" href="https://wa.me/306973779985">💬</a>
 
 <footer>
-<p>© 2026 Ρόδον - All Rights Reserved</p>
+  <p>© 2026 Ρόδον - All Rights Reserved</p>
 </footer>
 
 </body>
