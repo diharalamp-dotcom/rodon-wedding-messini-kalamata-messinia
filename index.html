@@ -1,197 +1,271 @@
 <!DOCTYPE html>
 <html lang="el">
 <head>
-<meta name="google-site-verification" content="Nt6f7D3Bx2munwK47SVd1csWT5qcR9rFmqQis6P6NFY" />
-
-<title>Κτήμα Ρόδον | Χώρος Γάμου & Δεξιώσεων στη Μεσσήνη Καλαμάτας</title>
-
-<meta name="description" content="Το Κτήμα Ρόδον στη Μεσσήνη Καλαμάτας είναι ένας μοναδικός χώρος για γάμους, βαπτίσεις και εκδηλώσεις. Ιδανικό περιβάλλον για αξέχαστες δεξιώσεις στην καρδιά της Μεσσηνίας.">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="Nt6f7D3Bx2munwK47SVd1csWT5qcR9rFmqQis6P6NFY" />
+  <title>Κτήμα Ρόδον | Χώρος Γάμου & Δεξιώσεων στη Μεσσήνη Καλαμάτας</title>
+  <meta name="description" content="Το Κτήμα Ρόδον στη Μεσσήνη Καλαμάτας είναι ένας μοναδικός χώρος για γάμους, βαπτίσεις και εκδηλώσεις. Ιδανικό περιβάλλον για αξέχαστες δεξιώσεις στην καρδιά της Μεσσηνίας.">
 
   <style>
-    * { margin:0; padding:0; box-sizing:border-box; }
-    body { font-family: Arial, sans-serif; color:#333; line-height:1.6; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
-    .hero{
-      height:100vh;
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      line-height: 1.6;
+      background: #fff;
+    }
+
+    .hero {
+      height: 100vh;
       background:
-        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-        url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80') center/cover;
-      display:flex;
-      flex-direction:column;
-      justify-content:center;
-      align-items:center;
-      text-align:center;
-      color:white;
-      padding:20px;
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+        url('images/rodon-8.jpg') center/cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
     }
 
-    .hero h1 { font-size:3em; max-width:800px; }
-    .hero p { margin:20px 0; font-size:1.2em; }
-
-    .btn{
-      background:#c59d5f;
-      color:white;
-      padding:15px 30px;
-      border-radius:6px;
-      text-decoration:none;
-      font-weight:bold;
-      display:inline-block;
-      margin:10px;
+    .hero h1 {
+      font-size: 3rem;
+      max-width: 900px;
+      margin-bottom: 15px;
     }
 
-    .section{
-      padding:70px 20px;
-      max-width:1100px;
-      margin:auto;
-      text-align:center;
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 720px;
+      margin-bottom: 25px;
     }
 
-    .gallery{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-      gap:15px;
+    .btn {
+      background: #c59d5f;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin: 8px;
     }
 
-    .gallery img{
-      width:100%;
-      height:260px;
-      object-fit:cover;
-      border-radius:10px;
+    .section {
+      padding: 70px 20px;
+      max-width: 1150px;
+      margin: auto;
+      text-align: center;
     }
 
-    .features{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-      gap:20px;
-      text-align:left;
-      margin-top:30px;
+    .section h2 {
+      margin-bottom: 20px;
+      font-size: 2rem;
     }
 
-    .card{
-      background:#f4f4f4;
-      padding:25px;
-      border-radius:10px;
+    .section p.lead {
+      max-width: 900px;
+      margin: 0 auto 30px;
+      color: #555;
     }
 
-    .cta{
-      background:#111;
-      color:white;
-      text-align:center;
-      padding:80px 20px;
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+      text-align: left;
+      margin-top: 30px;
     }
 
-    .testimonials{
-      background:#fafafa;
+    .card {
+      background: #f5f5f5;
+      padding: 24px;
+      border-radius: 10px;
     }
 
-    .form input, .form textarea{
-      width:100%;
-      padding:12px;
-      margin:10px 0;
-      border:1px solid #ccc;
-      border-radius:5px;
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+      margin-top: 25px;
     }
 
-    footer{
-      background:#000;
-      color:#aaa;
-      text-align:center;
-      padding:20px;
+    .gallery img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      border-radius: 10px;
+      display: block;
     }
 
-    .whatsapp{
-      position:fixed;
-      bottom:20px;
-      right:20px;
-      background:#25D366;
-      color:white;
-      padding:15px;
-      border-radius:50%;
-      text-decoration:none;
-      font-size:20px;
+    .cta {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .cta h2 {
+      margin-bottom: 10px;
+      font-size: 2rem;
+    }
+
+    .testimonials {
+      background: #fafafa;
+    }
+
+    .form {
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+
+    .form input,
+    .form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font: inherit;
+    }
+
+    .form textarea {
+      min-height: 140px;
+      resize: vertical;
+    }
+
+    .form button {
+      border: none;
+      cursor: pointer;
+    }
+
+    iframe {
+      border: 0;
+      width: 100%;
+      height: 320px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #000;
+      color: #aaa;
+      text-align: center;
+      padding: 22px;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 15px 17px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 22px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.1rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+
+      .gallery img {
+        height: 220px;
+      }
     }
   </style>
 </head>
 <body>
 
-<section class="hero">
-  <h1>Ο γάμος που θα θυμάστε για πάντα ξεκινά στο Ρόδον</h1>
-  <p>Κτήμα δεξιώσεων στη Μεσσήνη για γάμους, βαφτίσεις και εκδηλώσεις</p>
-  <a href="#contact" class="btn">Κλείσε Ραντεβού</a>
-  <a href="#gallery" class="btn">Δες Φωτογραφίες</a>
-</section>
+  <section class="hero">
+    <h1>Κτήμα Γάμου & Δεξιώσεων στη Μεσσήνη Καλαμάτας – Κτήμα Ρόδον</h1>
+    <p>Ένας ξεχωριστός χώρος για γάμους, βαπτίσεις και εκδηλώσεις στη Μεσσηνία, με κομψό περιβάλλον, ζεστή ατμόσφαιρα και μοναδικές στιγμές.</p>
+    <div>
+      <a href="#gallery" class="btn">Δες Φωτογραφίες</a>
+      <a href="#contact" class="btn">Επικοινωνία</a>
+    </div>
+  </section>
 
-<section class="section">
-  <h2>Γιατί το Ρόδον</h2>
-  <div class="features">
-    <div class="card">Ρομαντικό περιβάλλον μέσα στη φύση</div>
-    <div class="card">Ολοκληρωμένη οργάνωση εκδήλωσης</div>
-    <div class="card">Προσεγμένο μενού και εξυπηρέτηση</div>
-    <div class="card">Ιδανικός χώρος για γάμους και βαφτίσεις</div>
-  </div>
-</section>
+  <section class="section">
+    <h2>Γιατί το Ρόδον</h2>
+    <p class="lead">
+      Το Κτήμα Ρόδον στη Μεσσήνη Καλαμάτας αποτελεί έναν από τους πιο ιδιαίτερους χώρους για γάμους, βαπτίσεις και κοινωνικές εκδηλώσεις στη Μεσσηνία. Ο χώρος συνδυάζει εσωτερική αίθουσα δεξιώσεων, εντυπωσιακό εξωτερικό περιβάλλον και ατμόσφαιρα που μένει αξέχαστη.
+    </p>
 
-<section class="section" id="gallery">
-  <h2>Εικόνες από εκδηλώσεις</h2>
-  <div class="gallery">
-    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1000&q=80" alt="Δεξίωση γάμου">
-    <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1000&q=80" alt="Στολισμός γάμου">
-    <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1000&q=80" alt="Χώρος εκδήλωσης">
-    <img src="https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1000&q=80" alt="Κτήμα δεξιώσεων">
-  </div>
-</section>
+    <div class="features">
+      <div class="card">✓ Ρομαντικό περιβάλλον για γάμο και δεξίωση</div>
+      <div class="card">✓ Εσωτερικός και εξωτερικός χώρος εκδηλώσεων</div>
+      <div class="card">✓ Ιδανικό για γάμους, βαπτίσεις και events</div>
+      <div class="card">✓ Εντυπωσιακός φωτισμός και μοναδική ατμόσφαιρα</div>
+    </div>
+  </section>
 
-<section class="section">
-  <h2>Υπηρεσίες</h2>
-  <div class="features">
-    <div class="card">Γάμοι με πλήρη οργάνωση</div>
-    <div class="card">Βαφτίσεις</div>
-    <div class="card">Εταιρικές εκδηλώσεις</div>
-    <div class="card">Catering υψηλής ποιότητας</div>
-  </div>
-</section>
+  <section class="section" id="gallery">
+    <h2>Εικόνες από το Κτήμα Ρόδον</h2>
+    <p class="lead">
+      Δείτε τον χώρο, τη διακόσμηση, τις βραδινές λήψεις και την ατμόσφαιρα πραγματικών εκδηλώσεων στο Κτήμα Ρόδον στη Μεσσήνη.
+    </p>
 
-<section class="section testimonials">
-  <h2>Τι λένε οι πελάτες</h2>
-  <p>"Εξαιρετικός χώρος, άψογη εξυπηρέτηση και πολύ όμορφη ατμόσφαιρα."</p>
-  <p>"Ο γάμος μας έγινε ακριβώς όπως τον θέλαμε."</p>
-</section>
+    <div class="gallery">
+      <img src="images/rodon-1.jpg" alt="Εσωτερικός χώρος δεξίωσης στο Κτήμα Ρόδον Μεσσήνη">
+      <img src="images/rodon-2.jpg" alt="Γάμος σε εσωτερική αίθουσα δεξιώσεων στο Κτήμα Ρόδον">
+      <img src="images/rodon-3.jpg" alt="Στολισμός τραπεζιού γάμου στο Κτήμα Ρόδον">
+      <img src="images/rodon-4.jpg" alt="Αεροφωτογραφία με πυροτεχνήματα στο Κτήμα Ρόδον">
+      <img src="images/rodon-5.jpg" alt="Εξωτερικός χώρος δεξίωσης με λευκά τραπέζια και κόκκινα λουλούδια">
+      <img src="images/rodon-6.jpg" alt="Βραδινή αεροφωτογραφία εκδήλωσης στο Κτήμα Ρόδον">
+      <img src="images/rodon-7.jpg" alt="Βραδινή δεξίωση γάμου με φωτισμό στο Κτήμα Ρόδον">
+      <img src="images/rodon-8.jpg" alt="Πανοραμική λήψη βραδινής δεξίωσης στο Κτήμα Ρόδον Μεσσηνία">
+    </div>
+  </section>
 
-<section class="cta">
-  <h2>Οι ημερομηνίες κλείνονται γρήγορα</h2>
-  <p>Επικοινώνησε τώρα για διαθεσιμότητα</p>
-  <a href="#contact" class="btn">Ζήτα προσφορά</a>
-</section>
+  <section class="section testimonials">
+    <h2>Χώρος για αξέχαστες στιγμές</h2>
+    <p class="lead">
+      Από κομψές εσωτερικές δεξιώσεις μέχρι εντυπωσιακές βραδινές εκδηλώσεις στον εξωτερικό χώρο, το Ρόδον είναι σχεδιασμένο για να φιλοξενεί στιγμές που μένουν.
+    </p>
+  </section>
 
-<section class="section" id="contact">
-  <h2>Επικοινωνία</h2>
+  <section class="cta">
+    <h2>Ζητήστε διαθεσιμότητα για την εκδήλωσή σας</h2>
+    <p>Επικοινωνήστε μαζί μας για γάμους, βαπτίσεις και κοινωνικές εκδηλώσεις στη Μεσσήνη.</p>
+    <a href="#contact" class="btn">Ζήτα προσφορά</a>
+  </section>
 
-  <form class="form">
-    <input type="text" placeholder="Όνομα">
-    <input type="email" placeholder="Email">
-    <input type="tel" placeholder="Τηλέφωνο">
-    <textarea placeholder="Πες μας για την εκδήλωσή σου"></textarea>
-    <button type="submit" class="btn">Αποστολή</button>
-  </form>
+  <section class="section" id="contact">
+    <h2>Επικοινωνία</h2>
 
-  <p>Μεσσήνη, Μεσσηνία</p>
-  <p>Τηλ: 6973779985</p>
+    <form class="form">
+      <input type="text" placeholder="Όνομα">
+      <input type="email" placeholder="Email">
+      <input type="tel" placeholder="Τηλέφωνο">
+      <textarea placeholder="Πείτε μας λίγα λόγια για την εκδήλωσή σας"></textarea>
+      <button type="submit" class="btn">Αποστολή</button>
+    </form>
 
-  <iframe
-    src="https://maps.google.com/maps?q=Messini&t=&z=13&ie=UTF8&iwloc=&output=embed"
-    width="100%" height="300" style="border:0;margin-top:20px;"
-    loading="lazy">
-  </iframe>
-</section>
+    <p>Μεσσήνη, Μεσσηνία</p>
+    <p>Τηλέφωνο: 6973779985</p>
 
-<a class="whatsapp" href="https://wa.me/306973779985">💬</a>
+    <iframe
+      src="https://maps.google.com/maps?q=Messini&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      loading="lazy">
+    </iframe>
+  </section>
 
-<footer>
-  <p>© 2026 Ρόδον - All Rights Reserved</p>
-</footer>
+  <a class="whatsapp" href="https://wa.me/306973779985" aria-label="WhatsApp">💬</a>
+
+  <footer>
+    <p>© 2026 Κτήμα Ρόδον - Όλα τα δικαιώματα διατηρούνται</p>
+  </footer>
 
 </body>
 </html>
